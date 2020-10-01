@@ -1,0 +1,63 @@
+
+.gosulist {
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--secondary);
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
+}
+
+
+
+.gosulist a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.picture img {
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.gosulist__name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.gosulist__rate {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.gosulist__rating {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.gosulist__comment {
+  margin-bottom: 10px;
+}
+
+.gosulist__snsIcon {
+  background-color: white;
+  color: black;
+}
+
+.gosulist__review {
+  font-size: 14px;
+}
+
+.gosulist__review__comment {
+  padding-bottom: 10px;
+  vertical-align: top;
+  margin-left: 5px;
+}
